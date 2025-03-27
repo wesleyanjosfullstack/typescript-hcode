@@ -12,7 +12,7 @@ class Product
     public name: string
     public value: number
 
-    constructor(productName, productValue) 
+    constructor(productName: string, productValue: number) 
     {
         this.name = productName
         this.value = productValue
